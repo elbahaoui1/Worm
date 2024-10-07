@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-alex:
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,7 +18,14 @@
 .font-comic {
   font-family: var(--font-comic), sans-serif; /* Fallback font */
 }
-
+.font-alex {
+  font-family: var(--font-alex);
+}
+.font-alex {
+  font-family: var(--font-alex);
+}.font-edu {
+  font-family: var(--font-edu);
+}
 body {
   color: var(--foreground);
   background: var(--background);

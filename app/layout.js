@@ -4,12 +4,33 @@ import "./globals.css";
 const comic = localFont({
   src: [
     {
-      path: '../public/font/Talk-Comic.ttf',
+      path: '../public/font/enaragy.ttf',
       weight: '400',
       style: 'normal', // Optionally specify style
     },
   ],
   variable: '--font-comic',
+});
+
+const alex = localFont({
+  src: [
+    {
+      path: '../public/font/Alexandria-Bold.ttf',
+      weight: '700',
+      style: 'normal', 
+    },
+  ],
+  variable: '--font-alex',
+});
+
+const edu = localFont({
+  src: [
+    {
+      path: '../public/font/edu.ttf',
+   
+    },
+  ],
+  variable: '--font-edu',
 });
 
 export const metadata = {
@@ -20,7 +41,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${comic.variable} font-comic`}>{children}</body>
+      <body className={` ${edu.variable} ${comic.variable} ${alex.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

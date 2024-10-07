@@ -64,7 +64,7 @@ export default function Home() {
   };
 
   return (
-    <div className={`wrapper bg-gray-100 flex-col min-h-screen max-w-full w-full overflow-hidden flex font-comic ${scrollLocked ? 'overflow-hidden' : ''}`}>
+    <div className={`wrapper bg-gray-100 flex-col min-h-screen max-w-full w-full overflow-hidden flex font-comic  ${scrollLocked ? 'overflow-hidden' : ''}`}>
       <div className="text-black z-20 text-[0.72rem] md:text-lg font-bold text-center px-2 border-b-2 border-black py-2">
         CA: AOQ1JQICAQINBBA3AD2JDAPCI09IEWQLSNCWOQLSANCH
       </div>
@@ -136,6 +136,24 @@ export default function Home() {
           alt="Zombies"
          
         />
+      
+        <img 
+          className="absolute w-full h-fit  top-[25vw] z-20"
+          src="/light.png" 
+          alt="how to buy"
+         
+        />
+      
+        <div className="absolute w-full h-[28vw]  top-[50vw] z-30">
+        <div className="relative h-full w-full text-black font-alex font-bold">
+          <div className="h-full w-[14vw] left-[7.3vw]  absolute text-center text-[1.4vw]  ">DOWNLOAD PHANTOM OR YOUR WALLET OF CHOICE FROM THE APP STORE FOR FREE. DESKTOP USERS, DOWNLOAD THE GOOGLE CHROME EXTENSION BY GIONG TO PHANTOM APP</div>
+          <div className="h-full w-[14vw] left-[29.7vw]  absolute text-center text-[1.5vw]"> HAVE SOL IN YOUR WALLET TO SWITCH TO $WOLF IF YOU DON'T HAVE ANY SOL, YOU CAN BUY SOL FROM AN EXCHANGE OR CROSS CHAIN SWAP AND SEND IT TO YOUR WALLET</div>
+          <div className="h-full w-[14vw] left-[51.4vw]  absolute text-center text-[1.15vw]" > CONNECT TO RAyDIUm. Go RAyDIum.io IN GOOGLE CHROME OR ON THE BROWSER INSIDE YOUR PHANTOM APP. CONNECT YOUR WALLET. PASTE THE $worm TOKEN ADDRESS INTO RAYDIUM AND CONFIRM THE SWAP. WHEN PHANTOM PROMPTS YOU FOR A WALLET SIGNATURE, SIGN.</div>
+          <div className="h-full w-[14vw] left-[75vw] top-[7.5vw]  absolute text-center text-[2.8vw]"> SWITCH SOL FOR $WORM
+          </div>
+        </div>
+
+        </div>
         
         <motion.img 
           className="w-full z-20 absolute top-0 lg:block md:hidden sm:hidden"
